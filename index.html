@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <a href="#" class="logo">PortoFolio</a>
+            <ul class="nav-links">
+                <li><a href="#hero">Accueil</a></li>
+                <li><a href="#about">À propos</a></li>
+                <li><a href="#projects">Projets</a></li>
+                <li><a href="#skills">Compétences</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero" class="hero-section">
+            <div class="hero-content">
+                <h1>Bonjour, je suis Le FAUCON</h1>
+                <p>Développeur Web & Designer UI/UX passionné</p>
+                <a href="#projects" class="btn">Voir mes projets</a>
+            </div>
+        </section>
+
+        <section id="about" class="about-section">
+            <div class="container">
+                <h2>À propos de moi</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>Je suis un développeur créatif et passionné par la création d'expériences numériques intuitives et esthétiques. Avec une solide expérience en développement front-end et une sensibilité pour le design, je transforme des idées complexes en solutions simples et élégantes.</p>
+                        <p>N'hésitez pas à me contacter pour discuter de votre prochain projet !</p>
+                    </div>
+                    <div class="about-image">
+                        <img src="img/vite.jpeg" alt="Photo de profil">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects-section">
+            <div class="container">
+                <h2>Mes Projets</h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <img src="img/120x160 LOCKED Hopkins 03_03 HD.e6604b7e-11b6-4648-a680-21acdfba3b3b.jpg" alt="Projet 1">
+                        <h3>Projet 1</h3>
+                        <p>Description courte du projet. Technologies utilisées : HTML, CSS, JavaScript.</p>
+                        <a href="#" class="btn-secondary">Voir plus</a>
+                    </div>
+                    <div class="project-card">
+                        <img src="img/boostrap.png" alt="Projet 2">
+                        <h3>Projet 2</h3>
+                        <p>Description courte du projet. Technologies utilisées : React, Node.js.</p>
+                        <a href="#" class="btn-secondary">Voir plus</a>
+                    </div>
+                    <div class="project-card">
+                        <img src="img/Kirikou@Ruud Van Empel.jpeg" alt="Projet 3">
+                        <h3>Projet 3</h3>
+                        <p>Description courte du projet. Technologies utilisées : Figma, Adobe XD.</p>
+                        <a href="#" class="btn-secondary">Voir plus</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="skills-section">
+            <div class="container">
+                <h2>Compétences</h2>
+                <div class="skills-grid">
+                    <div class="skill-item"><i class="fab fa-html5"></i> HTML5</div>
+                    <div class="skill-item"><i class="fab fa-css3-alt"></i> CSS3</div>
+                    <div class="skill-item"><i class="fab fa-js-square"></i> JavaScript</div>
+                    <div class="skill-item"><i class="fab fa-react"></i> React</div>
+                    <div class="skill-item"><i class="fab fa-node-js"></i> Node.js</div>
+                    <div class="skill-item"><i class="fab fa-figma"></i> Figma</div>
+                    <div class="skill-item"><i class="fab fa-git-alt"></i> Git</div>
+                    <div class="skill-item"><i class="fas fa-database"></i> SQL</div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section">
+            <div class="container">
+                <h2>Contactez-moi</h2>
+                <p>Une question ou une proposition ? Envoyez-moi un message !</p>
+                <form action="#" class="contact-form">
+                    <input type="text" name="name" placeholder="Votre Nom" required>
+                    <input type="email" name="email" placeholder="Votre Email" required>
+                    <textarea name="message" placeholder="Votre Message" required></textarea>
+                    <button type="submit" class="btn">Envoyer</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 [Votre Nom]. Tous droits réservés.</p>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
